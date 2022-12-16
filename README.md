@@ -18,9 +18,6 @@ Recently, regularized variable selection has emerged as a power tool to identify
 
 ## Example
 
-#install.packages("devtools")
-#devtools::install_github("Yuwen-L/springer")
-
 library(springer)
 data("dat")
 e <- dat$e
