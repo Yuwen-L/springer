@@ -38,6 +38,7 @@ Recently, regularized variable selection has emerged as a power tool to identify
     lam1
     lam2
     tunning$CV
+    
     beta = springer(clin=clin, e, g, y,beta0,func="GEE",corr="independence",structure="bilevel",
     lam1=dat$lam1, lam2=dat$lam2,maxits=30,tol=0.01)
     ##only focus on the genetic main effects and gene-environment interactions
